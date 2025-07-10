@@ -1,13 +1,27 @@
+   
  
  .box h1{
-   font-size: 70px !important;
+  margin: auto;
+  padding: 10px;
+  display: block;
+  width: fit-content;
+   font-size: 60px ;
+   font-weight: 900;
+   border-radius: 20px;
+    box-shadow: 0 0 10px 10px #fff ;
+ }
+ @media(max-width:767px){
+   .box h1{
+   font-size:30px !important;
    font-weight: 900;
  }
- .box p{
-   font-size: 30px !important;
-   /* font-weight: 900; */
  }
- .box h1{
-   font-size: 80px !important;
-   font-weight: 900;
+ button{
+  display: block;
+  box-shadow: 0 0 7px  #fff ;
+  width: fit-content;
+ }
+ .item{
+  box-shadow: 0 0 10px  #fff ;
+  padding: 10px;
  }
